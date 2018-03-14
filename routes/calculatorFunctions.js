@@ -17,7 +17,6 @@ app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
 
 app.get('/', function(req,res){
-    console.log("inside add")
     var response = {result:""};
 
     number1 = Number(req.param('number1'));
